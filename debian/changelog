@@ -1,3 +1,9 @@
+rsyslog (8.38.0-2pardus4) onyedi; urgency=medium
+
+  * Update .drone.yml
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 20 Nov 2018 14:53:34 +0300
+
 rsyslog (8.38.0-2pardus3) onyedi; urgency=medium
 
   * Skip bash tests
