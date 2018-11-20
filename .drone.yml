@@ -6,7 +6,7 @@ build:
     commands:
       - echo "TODO lintian -i /packages/$(basename $DRONE_REPO)/*.changes"
       - apt-get update
-      - apt-get install build-essential equivs devscripts
+      - apt-get install build-essential equivs devscripts lsof net-tools
       - mkdir -p build-area
       - cd build-area
       - dpkg-source -x /packages/$(basename $DRONE_REPO)/*.dsc build-$(basename $DRONE_REPO)
