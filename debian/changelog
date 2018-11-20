@@ -1,3 +1,9 @@
+rsyslog (8.38.0-2pardus2) onyedi; urgency=medium
+
+  * Update .drone.yml
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 20 Nov 2018 14:15:47 +0300
+
 rsyslog (8.38.0-2pardus1) onyedi; urgency=medium
 
   * Pardus CI implementation
